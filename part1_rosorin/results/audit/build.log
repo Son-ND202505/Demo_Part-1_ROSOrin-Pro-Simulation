@@ -1,0 +1,192 @@
+Starting >>> robot_gazebo
+Starting >>> rosorin_description
+running egg_info
+creating ../../../../../../part1_rosorin/ws/build/robot_gazebo/robot_gazebo.egg-info
+writing ../../../../../../part1_rosorin/ws/build/robot_gazebo/robot_gazebo.egg-info/PKG-INFO
+writing dependency_links to ../../../../../../part1_rosorin/ws/build/robot_gazebo/robot_gazebo.egg-info/dependency_links.txt
+writing entry points to ../../../../../../part1_rosorin/ws/build/robot_gazebo/robot_gazebo.egg-info/entry_points.txt
+writing requirements to ../../../../../../part1_rosorin/ws/build/robot_gazebo/robot_gazebo.egg-info/requires.txt
+writing top-level names to ../../../../../../part1_rosorin/ws/build/robot_gazebo/robot_gazebo.egg-info/top_level.txt
+writing manifest file '../../../../../../part1_rosorin/ws/build/robot_gazebo/robot_gazebo.egg-info/SOURCES.txt'
+reading manifest file '../../../../../../part1_rosorin/ws/build/robot_gazebo/robot_gazebo.egg-info/SOURCES.txt'
+writing manifest file '../../../../../../part1_rosorin/ws/build/robot_gazebo/robot_gazebo.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/build/robot_gazebo/build
+creating /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/build/robot_gazebo/build/lib
+creating /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/build/robot_gazebo/build/lib/robot_gazebo
+copying robot_gazebo/cmd_vel_modifier.py -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/build/robot_gazebo/build/lib/robot_gazebo
+copying robot_gazebo/teleop_key_control.py -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/build/robot_gazebo/build/lib/robot_gazebo
+copying robot_gazebo/__init__.py -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/build/robot_gazebo/build/lib/robot_gazebo
+running install
+running install_lib
+creating /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/lib/python3.10/site-packages/robot_gazebo
+copying /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/build/robot_gazebo/build/lib/robot_gazebo/cmd_vel_modifier.py -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/lib/python3.10/site-packages/robot_gazebo
+copying /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/build/robot_gazebo/build/lib/robot_gazebo/teleop_key_control.py -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/lib/python3.10/site-packages/robot_gazebo
+copying /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/build/robot_gazebo/build/lib/robot_gazebo/__init__.py -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/lib/python3.10/site-packages/robot_gazebo
+byte-compiling /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/lib/python3.10/site-packages/robot_gazebo/cmd_vel_modifier.py to cmd_vel_modifier.cpython-310.pyc
+byte-compiling /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/lib/python3.10/site-packages/robot_gazebo/teleop_key_control.py to teleop_key_control.cpython-310.pyc
+byte-compiling /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/lib/python3.10/site-packages/robot_gazebo/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/ament_index
+creating /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/ament_index/resource_index
+creating /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/ament_index/resource_index/packages
+copying resource/robot_gazebo -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/ament_index/resource_index/packages
+copying package.xml -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo
+creating /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/launch
+copying launch/worlds.launch.py -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/launch
+copying launch/room_worlds.launch.py -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/launch
+copying launch/spwan_model.launch.py -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/launch
+copying launch/spawn_objects.launch.py -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/launch
+copying launch/spawn_model.launch.py -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/launch
+copying launch/ros_ign_bridge.launch.py -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/launch
+creating /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/urdf
+copying urdf/lidar.gazebo.xacro -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/urdf
+copying urdf/camera.gazebo.xacro -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/urdf
+copying urdf/robot.gazebo.xacro -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/urdf
+copying urdf/imu.gazebo.xacro -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/urdf
+copying urdf/wheel.xacro -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/urdf
+creating /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/config
+copying config/nav2_params.yaml -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/config
+copying config/robot_config.yaml -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/config
+copying config/localization.yaml -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/config
+copying config/slam.yaml -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/config
+creating /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/worlds
+copying worlds/robocup_home.sdf -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/worlds
+copying worlds/empty.sdf -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/worlds
+creating /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/rviz
+copying rviz/nav_nav2.rviz -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/rviz
+copying rviz/slam.rviz -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/rviz
+creating /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/maps
+copying maps/map_01.pgm -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/maps
+copying maps/map_01.yaml -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/maps
+creating /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/launch/include
+copying launch/include/navigation.launch.py -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/launch/include
+copying launch/include/slam.launch.py -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/launch/include
+copying launch/include/localization.launch.py -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/launch/include
+creating /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/meshes
+copying meshes/sofa.dae -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/meshes
+copying meshes/tea_table.dae -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/meshes
+copying meshes/cupboard.dae -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/meshes
+copying meshes/bed.dae -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/meshes
+copying meshes/bookshelft.dae -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/meshes
+copying meshes/table.dae -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/meshes
+copying meshes/chair.dae -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/meshes
+copying meshes/bottle.stl -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/meshes
+creating /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/meshes/bed
+copying meshes/bed/Wood_Bamboo.jpg -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/meshes/bed
+copying meshes/bed/Carpet_Pattern_Squares_Multi.jpg -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/meshes/bed
+creating /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/meshes/bookshelft
+copying meshes/bookshelft/Wood_Veneer_02.jpg -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/meshes/bookshelft
+creating /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/meshes/chair
+copying meshes/chair/Wood_Cherry_Original.jpg -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/meshes/chair
+creating /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/meshes/cupboard
+copying meshes/cupboard/Wood_Veneer_02.jpg -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/meshes/cupboard
+creating /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/meshes/sofa
+copying meshes/sofa/Carpet_Loop_Pattern.jpg -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/meshes/sofa
+creating /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/meshes/table
+copying meshes/tea_table/Wood_Cherry_Original.jpg -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/meshes/table
+creating /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/meshes/tea_table
+copying meshes/tea_table/Wood_Cherry_Original.jpg -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/meshes/tea_table
+creating /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/meshes/wpr1
+copying meshes/wpr1/forearm.dae -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/meshes/wpr1
+copying meshes/wpr1/base.dae -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/meshes/wpr1
+copying meshes/wpr1/fingertip.dae -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/meshes/wpr1
+copying meshes/wpr1/upperarm.dae -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/meshes/wpr1
+copying meshes/wpr1/torso.dae -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/meshes/wpr1
+copying meshes/wpr1/finger.dae -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/meshes/wpr1
+copying meshes/wpr1/palm.dae -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/meshes/wpr1
+creating /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/models
+copying models/tea_table.model -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/models
+copying models/kai_standing.model -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/models
+copying models/bookshelft.model -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/models
+copying models/bed.model -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/models
+copying models/sofa.model -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/models
+creating /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/models/bed
+creating /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/models/bottles
+copying models/bottles/red_bottle.model -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/models/bottles
+copying models/bottles/green_bottle.model -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/models/bottles
+creating /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/models/cupboard
+copying models/cupboard/cupboard_0.model -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/models/cupboard
+copying models/cupboard/cupboard_1.model -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/models/cupboard
+creating /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/models/table
+copying models/table/kitchen_table.model -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/models/table
+copying models/table/dinning_table_2.model -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/models/table
+copying models/table/dinning_table_0.model -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/models/table
+copying models/table/dinning_table_3.model -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/models/table
+copying models/table/dinning_table_1.model -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/models/table
+creating /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/models/chair
+copying models/chair/chair_1.model -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/models/chair
+copying models/chair/chair_2.model -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/models/chair
+copying models/chair/chair_0.model -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/models/chair
+copying models/chair/chair_3.model -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/models/chair
+running install_egg_info
+Copying ../../../../../../part1_rosorin/ws/build/robot_gazebo/robot_gazebo.egg-info to /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/lib/python3.10/site-packages/robot_gazebo-0.0.0-py3.10.egg-info
+running install_scripts
+Installing teleop_key_control script to /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/lib/robot_gazebo
+writing list of installed files to '/home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/build/robot_gazebo/install.log'
+Finished <<< robot_gazebo [1.01s]
+running egg_info
+creating ../../../../../../part1_rosorin/ws/build/rosorin_description/rosorin_description.egg-info
+writing ../../../../../../part1_rosorin/ws/build/rosorin_description/rosorin_description.egg-info/PKG-INFO
+writing dependency_links to ../../../../../../part1_rosorin/ws/build/rosorin_description/rosorin_description.egg-info/dependency_links.txt
+writing entry points to ../../../../../../part1_rosorin/ws/build/rosorin_description/rosorin_description.egg-info/entry_points.txt
+writing requirements to ../../../../../../part1_rosorin/ws/build/rosorin_description/rosorin_description.egg-info/requires.txt
+writing top-level names to ../../../../../../part1_rosorin/ws/build/rosorin_description/rosorin_description.egg-info/top_level.txt
+writing manifest file '../../../../../../part1_rosorin/ws/build/rosorin_description/rosorin_description.egg-info/SOURCES.txt'
+reading manifest file '../../../../../../part1_rosorin/ws/build/rosorin_description/rosorin_description.egg-info/SOURCES.txt'
+writing manifest file '../../../../../../part1_rosorin/ws/build/rosorin_description/rosorin_description.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/build/rosorin_description/build
+creating /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/build/rosorin_description/build/lib
+creating /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/build/rosorin_description/build/lib/rosorin_description
+copying rosorin_description/__init__.py -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/build/rosorin_description/build/lib/rosorin_description
+running install
+running install_lib
+creating /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/rosorin_description/lib/python3.10/site-packages/rosorin_description
+copying /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/build/rosorin_description/build/lib/rosorin_description/__init__.py -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/rosorin_description/lib/python3.10/site-packages/rosorin_description
+byte-compiling /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/rosorin_description/lib/python3.10/site-packages/rosorin_description/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/rosorin_description/share/ament_index
+creating /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/rosorin_description/share/ament_index/resource_index
+creating /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/rosorin_description/share/ament_index/resource_index/packages
+copying resource/rosorin_description -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/rosorin_description/share/ament_index/resource_index/packages
+copying package.xml -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/rosorin_description/share/rosorin_description
+creating /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/rosorin_description/share/rosorin_description/launch
+copying launch/rviz.launch.py -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/rosorin_description/share/rosorin_description/launch
+copying launch/robot_description.launch.py -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/rosorin_description/share/rosorin_description/launch
+copying launch/display.launch.py -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/rosorin_description/share/rosorin_description/launch
+creating /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/rosorin_description/share/rosorin_description/urdf
+copying urdf/dabai.xacro -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/rosorin_description/share/rosorin_description/urdf
+copying urdf/materials.xacro -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/rosorin_description/share/rosorin_description/urdf
+copying urdf/ascamera.xacro -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/rosorin_description/share/rosorin_description/urdf
+copying urdf/rosorin.xacro -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/rosorin_description/share/rosorin_description/urdf
+creating /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/rosorin_description/share/rosorin_description/rviz
+copying rviz/view.rviz -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/rosorin_description/share/rosorin_description/rviz
+creating /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/rosorin_description/share/rosorin_description/meshes
+copying meshes/dabai_cam_link.STL -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/rosorin_description/share/rosorin_description/meshes
+copying meshes/right_front_wheel_link_collision.stl -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/rosorin_description/share/rosorin_description/meshes
+copying meshes/right_back_wheel_link_collision.stl -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/rosorin_description/share/rosorin_description/meshes
+copying meshes/mic_link_collision.stl -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/rosorin_description/share/rosorin_description/meshes
+copying meshes/right_front_wheel_link.stl -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/rosorin_description/share/rosorin_description/meshes
+copying meshes/base_link.stl -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/rosorin_description/share/rosorin_description/meshes
+copying meshes/dabai_cam_link_collision.stl -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/rosorin_description/share/rosorin_description/meshes
+copying meshes/left_back_wheel_link_collision.stl -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/rosorin_description/share/rosorin_description/meshes
+copying meshes/depth_camera_link.stl -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/rosorin_description/share/rosorin_description/meshes
+copying meshes/left_front_wheel_link_collision.stl -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/rosorin_description/share/rosorin_description/meshes
+copying meshes/left_back_wheel_link.stl -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/rosorin_description/share/rosorin_description/meshes
+copying meshes/base_link_collision.stl -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/rosorin_description/share/rosorin_description/meshes
+copying meshes/left_front_wheel_link.stl -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/rosorin_description/share/rosorin_description/meshes
+copying meshes/lidar_link.stl -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/rosorin_description/share/rosorin_description/meshes
+copying meshes/mic_link.stl -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/rosorin_description/share/rosorin_description/meshes
+copying meshes/depth_camera_link_collision.stl -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/rosorin_description/share/rosorin_description/meshes
+copying meshes/right_back_wheel_link.stl -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/rosorin_description/share/rosorin_description/meshes
+copying meshes/lidar_link_collision.stl -> /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/rosorin_description/share/rosorin_description/meshes
+running install_egg_info
+Copying ../../../../../../part1_rosorin/ws/build/rosorin_description/rosorin_description.egg-info to /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/rosorin_description/lib/python3.10/site-packages/rosorin_description-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/build/rosorin_description/install.log'
+Finished <<< rosorin_description [1.14s]
+
+Summary: 2 packages finished [1.43s]

@@ -1,0 +1,5 @@
+run,task,success,action_result,waypoints_requested,missed_waypoints,wall_seconds,simulation_seconds,final_position_error_m
+navigation_trials.json,single_goal,True,SUCCEEDED,1,0,4.7718172629975015,6.780000000000086,0.22980784474923086
+navigation_trials.json,multi_point,True,SUCCEEDED,3,0,22.70577256300021,22.709999999999923,0.21705846994834005
+navigation_trials_demo.json,single_goal,True,SUCCEEDED,1,0,9.373228832999303,11.370000000000005,0.23647956617421764
+navigation_trials_demo.json,multi_point,True,SUCCEEDED,3,0,20.547088736995647,20.549999999999997,0.24775765482193154

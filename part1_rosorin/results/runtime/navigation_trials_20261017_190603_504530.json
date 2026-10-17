@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "trials": [
+    {
+      "name": "single_goal",
+      "goals": [
+        [
+          0.8,
+          1.0,
+          -1.5707963267948966
+        ]
+      ],
+      "waypoint_transitions": [],
+      "action_result": "SUCCEEDED",
+      "final_pose": [
+        0.730900012522916,
+        0.8737942255061817,
+        -1.4429370893519524
+      ],
+      "final_position_error_m": 0.14388434864472815,
+      "wall_seconds": 9.862275966996094,
+      "simulation_seconds": 9.870000000000005,
+      "pass": true
+    }
+  ],
+  "initial_pose_source": null,
+  "goals_source": "part1_rosorin/config/navigation_goals.yaml",
+  "localization_mode": "auto",
+  "localization": {
+    "ready": true,
+    "xy_std_m": 1.7906580536624885e-09,
+    "yaw_std_rad": 0.0,
+    "scan_match_ratio": 1.0,
+    "matched_beams": 130,
+    "global_resets": 0,
+    "scan_seed": null,
+    "method": "auto"
+  }
+}

@@ -1,0 +1,125 @@
+[INFO] [launch]: All log files can be found below /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/results/runtime/ros_logs/2026-10-13-01-20-59-346363-sonnd-dell-7670-727041
+[INFO] [launch]: Default logging verbosity is set to INFO
+ign_args is deprecated, migrate to gz_args!
+[INFO] [ign gazebo-1]: process started with pid [727096]
+[INFO] [robot_state_publisher-2]: process started with pid [727099]
+[INFO] [create-3]: process started with pid [727101]
+[INFO] [parameter_bridge-4]: process started with pid [727103]
+[robot_state_publisher-2] [INFO] [1791829259.781475453] [robot_state_publisher]: got segment base_footprint
+[robot_state_publisher-2] [INFO] [1791829259.781625224] [robot_state_publisher]: got segment base_link
+[robot_state_publisher-2] [INFO] [1791829259.781641130] [robot_state_publisher]: got segment camera_link0
+[robot_state_publisher-2] [INFO] [1791829259.781654457] [robot_state_publisher]: got segment front_left_link
+[robot_state_publisher-2] [INFO] [1791829259.781664960] [robot_state_publisher]: got segment front_right_link
+[robot_state_publisher-2] [INFO] [1791829259.781674664] [robot_state_publisher]: got segment imu_link
+[robot_state_publisher-2] [INFO] [1791829259.781684218] [robot_state_publisher]: got segment left_back_wheel_link
+[robot_state_publisher-2] [INFO] [1791829259.781693658] [robot_state_publisher]: got segment left_front_wheel_link
+[robot_state_publisher-2] [INFO] [1791829259.781702950] [robot_state_publisher]: got segment lidar_frame
+[robot_state_publisher-2] [INFO] [1791829259.781712166] [robot_state_publisher]: got segment lidar_sim_frame
+[robot_state_publisher-2] [INFO] [1791829259.781721136] [robot_state_publisher]: got segment mic_link
+[robot_state_publisher-2] [INFO] [1791829259.781730038] [robot_state_publisher]: got segment rear_left_link
+[robot_state_publisher-2] [INFO] [1791829259.781739098] [robot_state_publisher]: got segment rear_right_link
+[robot_state_publisher-2] [INFO] [1791829259.781748510] [robot_state_publisher]: got segment right_back_wheel_link
+[robot_state_publisher-2] [INFO] [1791829259.781757709] [robot_state_publisher]: got segment right_front_wheel_link
+[create-3] [INFO] [1791829259.797365449] [ros_gz_sim]: Waiting messages on topic [robot_description].
+[parameter_bridge-4] [INFO] [1791829259.827158724] [ros_gz_bridge]: Creating ROS->GZ Bridge: [/controller/cmd_vel (geometry_msgs/msg/Twist) -> /controller/cmd_vel (ignition.msgs.Twist)] (Lazy 0)
+[parameter_bridge-4] [INFO] [1791829259.829157575] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/odom (ignition.msgs.Odometry) -> /odom (nav_msgs/msg/Odometry)] (Lazy 0)
+[parameter_bridge-4] [INFO] [1791829259.830791735] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/odom/tf (ignition.msgs.Pose_V) -> /odom/tf (tf2_msgs/msg/TFMessage)] (Lazy 0)
+[parameter_bridge-4] [INFO] [1791829259.832369140] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/clock (ignition.msgs.Clock) -> /clock (rosgraph_msgs/msg/Clock)] (Lazy 0)
+[parameter_bridge-4] [INFO] [1791829259.833131116] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/joint_states (ignition.msgs.Model) -> /joint_states (sensor_msgs/msg/JointState)] (Lazy 0)
+[parameter_bridge-4] [INFO] [1791829259.834903934] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/scan (ignition.msgs.LaserScan) -> /scan (sensor_msgs/msg/LaserScan)] (Lazy 0)
+[parameter_bridge-4] [INFO] [1791829259.835734507] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/scan/points (ignition.msgs.PointCloudPacked) -> /scan/points (sensor_msgs/msg/PointCloud2)] (Lazy 0)
+[ign gazebo-1] Warning: Ignoring XDG_SESSION_TYPE=wayland on Gnome. Use QT_QPA_PLATFORM=wayland to run on Wayland anyway.
+[create-3] [INFO] [1791829260.349991235] [ros_gz_sim]: Requested creation of entity.
+[create-3] [INFO] [1791829260.350060969] [ros_gz_sim]: OK creation of entity.
+[INFO] [create-3]: process has finished cleanly [pid 727101]
+[INFO] [create-5]: process started with pid [727322]
+[INFO] [create-6]: process started with pid [727324]
+[INFO] [create-7]: process started with pid [727326]
+[INFO] [create-8]: process started with pid [727328]
+[ign gazebo-1] Service [] is not valid.
+[create-7] [INFO] [1791829261.132558368] [spawn_entity]: Requesting list of world names.
+[create-5] [INFO] [1791829261.133251130] [spawn_entity]: Requesting list of world names.
+[create-8] [INFO] [1791829261.135939768] [spawn_entity]: Requesting list of world names.
+[create-6] [INFO] [1791829261.136015371] [spawn_entity]: Requesting list of world names.
+[create-7] [INFO] [1791829261.433933800] [spawn_entity]: Requested creation of entity.
+[create-7] [INFO] [1791829261.434027159] [spawn_entity]: OK creation of entity.
+[INFO] [create-7]: process has finished cleanly [pid 727326]
+[create-6] [INFO] [1791829261.634639552] [spawn_entity]: Requested creation of entity.
+[create-6] [INFO] [1791829261.634749580] [spawn_entity]: OK creation of entity.
+[create-5] [INFO] [1791829261.634687457] [spawn_entity]: Requested creation of entity.
+[create-5] [INFO] [1791829261.634794682] [spawn_entity]: OK creation of entity.
+[create-8] [INFO] [1791829261.635718980] [spawn_entity]: Requested creation of entity.
+[create-8] [INFO] [1791829261.635787227] [spawn_entity]: OK creation of entity.
+[INFO] [create-6]: process has finished cleanly [pid 727324]
+[INFO] [create-5]: process has finished cleanly [pid 727322]
+[INFO] [create-8]: process has finished cleanly [pid 727328]
+[INFO] [create-9]: process started with pid [727480]
+[INFO] [create-10]: process started with pid [727482]
+[INFO] [create-11]: process started with pid [727485]
+[create-10] [INFO] [1791829261.786451251] [spawn_entity]: Requesting list of world names.
+[create-9] [INFO] [1791829261.805300594] [spawn_entity]: Requesting list of world names.
+[create-11] [INFO] [1791829261.806365395] [spawn_entity]: Requesting list of world names.
+[create-10] [INFO] [1791829262.088120257] [spawn_entity]: Requested creation of entity.
+[create-10] [INFO] [1791829262.088157078] [spawn_entity]: OK creation of entity.
+[create-11] [INFO] [1791829262.188411371] [spawn_entity]: Requested creation of entity.
+[create-11] [INFO] [1791829262.188487521] [spawn_entity]: OK creation of entity.
+[create-9] [INFO] [1791829262.189449241] [spawn_entity]: Requested creation of entity.
+[create-9] [INFO] [1791829262.189483776] [spawn_entity]: OK creation of entity.
+[INFO] [create-10]: process has finished cleanly [pid 727482]
+[INFO] [create-11]: process has finished cleanly [pid 727485]
+[INFO] [create-9]: process has finished cleanly [pid 727480]
+[INFO] [create-12]: process started with pid [727659]
+[INFO] [create-13]: process started with pid [727662]
+[INFO] [create-14]: process started with pid [727669]
+[INFO] [create-15]: process started with pid [727671]
+[create-15] [INFO] [1791829262.786958961] [dinning_table_3]: Requesting list of world names.
+[create-12] [INFO] [1791829262.805038252] [dinning_table_0]: Requesting list of world names.
+[create-13] [INFO] [1791829262.805221993] [dinning_table_1]: Requesting list of world names.
+[create-14] [INFO] [1791829262.805406051] [dinning_table_2]: Requesting list of world names.
+[create-15] [INFO] [1791829263.088223127] [dinning_table_3]: Requested creation of entity.
+[create-15] [INFO] [1791829263.088267566] [dinning_table_3]: OK creation of entity.
+[INFO] [create-15]: process has finished cleanly [pid 727671]
+[create-14] [INFO] [1791829263.288838607] [dinning_table_2]: Requested creation of entity.
+[create-14] [INFO] [1791829263.288892997] [dinning_table_2]: OK creation of entity.
+[create-12] [INFO] [1791829263.288969533] [dinning_table_0]: Requested creation of entity.
+[create-12] [INFO] [1791829263.289014707] [dinning_table_0]: OK creation of entity.
+[create-13] [INFO] [1791829263.289960823] [dinning_table_1]: Requested creation of entity.
+[create-13] [INFO] [1791829263.290015980] [dinning_table_1]: OK creation of entity.
+[INFO] [create-14]: process has finished cleanly [pid 727669]
+[INFO] [create-12]: process has finished cleanly [pid 727659]
+[INFO] [create-13]: process has finished cleanly [pid 727662]
+[ign gazebo-1] libEGL warning: egl: failed to create dri2 screen
+[ign gazebo-1] libEGL warning: egl: failed to create dri2 screen
+[ign gazebo-1] libEGL warning: egl: failed to create dri2 screen
+[ign gazebo-1] libEGL warning: egl: failed to create dri2 screen
+[INFO] [create-16]: process started with pid [728036]
+[INFO] [create-17]: process started with pid [728038]
+[INFO] [create-18]: process started with pid [728040]
+[INFO] [create-19]: process started with pid [728042]
+[create-18] [INFO] [1791829263.802625696] [spawn_entity]: Requesting list of world names.
+[create-17] [INFO] [1791829263.802841459] [spawn_entity]: Requesting list of world names.
+[create-19] [INFO] [1791829263.806671448] [spawn_entity]: Requesting list of world names.
+[create-16] [INFO] [1791829263.807920593] [spawn_entity]: Requesting list of world names.
+[create-17] [INFO] [1791829264.341589018] [spawn_entity]: Requested creation of entity.
+[create-17] [INFO] [1791829264.341660292] [spawn_entity]: OK creation of entity.
+[create-19] [INFO] [1791829264.341594929] [spawn_entity]: Requested creation of entity.
+[create-19] [INFO] [1791829264.341661566] [spawn_entity]: OK creation of entity.
+[create-18] [INFO] [1791829264.341744138] [spawn_entity]: Requested creation of entity.
+[create-18] [INFO] [1791829264.341797090] [spawn_entity]: OK creation of entity.
+[create-16] [INFO] [1791829264.342164816] [spawn_entity]: Requested creation of entity.
+[create-16] [INFO] [1791829264.342198055] [spawn_entity]: OK creation of entity.
+[INFO] [create-19]: process has finished cleanly [pid 728042]
+[INFO] [create-16]: process has finished cleanly [pid 728036]
+[INFO] [create-18]: process has finished cleanly [pid 728040]
+[INFO] [create-17]: process has finished cleanly [pid 728038]
+[INFO] [create-20]: process started with pid [728162]
+[INFO] [create-21]: process started with pid [728164]
+[create-20] [INFO] [1791829265.130096662] [spawn_entity]: Requesting list of world names.
+[create-21] [INFO] [1791829265.134466910] [spawn_entity]: Requesting list of world names.
+[create-20] [INFO] [1791829265.431916730] [spawn_entity]: Requested creation of entity.
+[create-20] [INFO] [1791829265.432000962] [spawn_entity]: OK creation of entity.
+[create-21] [INFO] [1791829265.432907485] [spawn_entity]: Requested creation of entity.
+[create-21] [INFO] [1791829265.432987646] [spawn_entity]: OK creation of entity.
+[INFO] [create-20]: process has finished cleanly [pid 728162]
+[INFO] [create-21]: process has finished cleanly [pid 728164]
+[parameter_bridge-4] [INFO] [1791829325.686306397] [ros_gz_bridge]: Passing message from ROS geometry_msgs/msg/Twist to Gazebo gz.msgs.Twist (showing msg only once per type)

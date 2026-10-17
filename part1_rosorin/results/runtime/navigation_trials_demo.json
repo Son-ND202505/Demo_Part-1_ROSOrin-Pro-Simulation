@@ -1,0 +1,84 @@
+{
+  "status": "PASS",
+  "trials": [
+    {
+      "name": "single_goal",
+      "goals": [
+        [
+          0.8,
+          1.0,
+          -1.5707963267948966
+        ]
+      ],
+      "waypoint_transitions": [],
+      "action_result": "SUCCEEDED",
+      "final_pose": [
+        0.6583224056685723,
+        0.8106589202460133,
+        -1.4280074835449164
+      ],
+      "final_position_error_m": 0.23647956617421764,
+      "wall_seconds": 9.373228832999303,
+      "simulation_seconds": 11.370000000000005,
+      "pass": true
+    },
+    {
+      "name": "multi_point",
+      "goals": [
+        [
+          0.5,
+          0.5,
+          -1.5707963267948966
+        ],
+        [
+          0.2,
+          -0.4,
+          -1.5707963267948966
+        ],
+        [
+          1.0,
+          0.5,
+          0.0
+        ]
+      ],
+      "waypoint_transitions": [
+        {
+          "current_waypoint": 0,
+          "pose": [
+            0.6588997592783665,
+            0.8087225018995473,
+            -1.4403675925594388
+          ]
+        },
+        {
+          "current_waypoint": 1,
+          "pose": [
+            0.6293206443655639,
+            0.6759357353307969,
+            -1.7947300804849953
+          ]
+        },
+        {
+          "current_waypoint": 2,
+          "pose": [
+            0.28409012206470446,
+            -0.20676655989321618,
+            -1.8054663218478788
+          ]
+        }
+      ],
+      "action_result": "SUCCEEDED",
+      "final_pose": [
+        0.8267674614178155,
+        0.3228719584615825,
+        0.2280713642604166
+      ],
+      "final_position_error_m": 0.24775765482193154,
+      "wall_seconds": 20.547088736995647,
+      "simulation_seconds": 20.549999999999997,
+      "missed_waypoints": [],
+      "pass": true
+    }
+  ],
+  "initial_pose_source": "part1_rosorin/results/runtime/localization_demo_pose.json"
+}

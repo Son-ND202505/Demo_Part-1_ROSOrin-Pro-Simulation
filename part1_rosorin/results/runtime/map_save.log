@@ -1,0 +1,16 @@
+[INFO] [1791829898.908136082] [map_saver]: 
+	map_saver lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1791829898.908743113] [map_saver]: Creating
+[INFO] [1791829898.909012247] [map_saver]: Configuring
+[INFO] [1791829898.912069018] [map_saver]: Saving map from 'map' topic to 'part1_rosorin/maps/room_slam' file
+[WARN] [1791829898.912108818] [map_saver]: Free threshold unspecified. Setting it to default value: 0.250000
+[WARN] [1791829898.912138941] [map_saver]: Occupied threshold unspecified. Setting it to default value: 0.650000
+[WARN] [1791829898.929495901] [map_io]: Image format unspecified. Setting it to: pgm
+[INFO] [1791829898.930181498] [map_io]: Received a 203 X 162 map @ 0.05 m/pix
+[INFO] [1791829898.980882291] [map_io]: Writing map occupancy data to part1_rosorin/maps/room_slam.pgm
+[INFO] [1791829898.981383498] [map_io]: Writing map metadata to part1_rosorin/maps/room_slam.yaml
+[INFO] [1791829898.981488955] [map_io]: Map saved
+[INFO] [1791829898.981507379] [map_saver]: Map saved successfully
+[INFO] [1791829898.982133169] [map_saver]: Destroying

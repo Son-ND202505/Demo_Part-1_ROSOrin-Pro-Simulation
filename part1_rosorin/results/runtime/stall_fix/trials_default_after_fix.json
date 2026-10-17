@@ -1,0 +1,96 @@
+{
+  "status": "PASS",
+  "trials": [
+    {
+      "name": "single_goal",
+      "goals": [
+        [
+          0.8,
+          1.0,
+          -1.5707963267948966
+        ]
+      ],
+      "waypoint_transitions": [],
+      "action_result": "SUCCEEDED",
+      "final_pose": [
+        0.7105805443814159,
+        0.9093346111726224,
+        -1.4382900340290794
+      ],
+      "final_position_error_m": 0.1273422623261559,
+      "wall_seconds": 32.884697508998215,
+      "simulation_seconds": 32.879999999999995,
+      "pass": true
+    },
+    {
+      "name": "multi_point",
+      "goals": [
+        [
+          0.5,
+          0.5,
+          -1.5707963267948966
+        ],
+        [
+          0.2,
+          -0.4,
+          -1.5707963267948966
+        ],
+        [
+          1.0,
+          0.5,
+          0.0
+        ]
+      ],
+      "waypoint_transitions": [
+        {
+          "current_waypoint": 0,
+          "pose": [
+            0.7103020775112935,
+            0.902734839742641,
+            -1.5301813195344598
+          ]
+        },
+        {
+          "current_waypoint": 1,
+          "pose": [
+            0.6276008665185392,
+            0.5342253497243223,
+            -1.5719861563218778
+          ]
+        },
+        {
+          "current_waypoint": 2,
+          "pose": [
+            0.28750175638419534,
+            -0.34025870688185805,
+            -1.6223980032925267
+          ]
+        }
+      ],
+      "action_result": "SUCCEEDED",
+      "final_pose": [
+        0.8888943196310233,
+        0.4144360236564249,
+        -0.12013935496642421
+      ],
+      "final_position_error_m": 0.1402343262470965,
+      "wall_seconds": 25.99473809398478,
+      "simulation_seconds": 26.00999999999999,
+      "missed_waypoints": [],
+      "pass": true
+    }
+  ],
+  "initial_pose_source": null,
+  "goals_source": "part1_rosorin/config/navigation_goals.yaml",
+  "localization_mode": "current",
+  "localization": {
+    "ready": true,
+    "xy_std_m": 0.1141712313214591,
+    "yaw_std_rad": 0.07806753750587675,
+    "scan_match_ratio": 1.0,
+    "matched_beams": 134,
+    "global_resets": 0,
+    "scan_seed": null,
+    "method": "current"
+  }
+}

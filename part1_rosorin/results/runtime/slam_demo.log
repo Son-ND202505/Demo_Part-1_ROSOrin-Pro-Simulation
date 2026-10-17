@@ -1,0 +1,14 @@
+[INFO] [launch]: All log files can be found below /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/results/runtime/ros_logs/2026-10-13-01-37-07-782407-sonnd-dell-7670-811476
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [sync_slam_toolbox_node-1]: process started with pid [811478]
+[sync_slam_toolbox_node-1] [INFO] [1791830227.857481005] [slam_toolbox]: Node using stack size 40000000
+[sync_slam_toolbox_node-1] [INFO] [1791830227.877771621] [slam_toolbox]: Using solver plugin solver_plugins::CeresSolver
+[sync_slam_toolbox_node-1] [INFO] [1791830227.877982531] [slam_toolbox]: CeresSolver: Using SCHUR_JACOBI preconditioner.
+[sync_slam_toolbox_node-1] [WARN] [1791830227.928449055] [slam_toolbox]: minimum laser range setting (0.0 m) exceeds the capabilities of the used Lidar (0.2 m)
+[sync_slam_toolbox_node-1] Registering sensor: [Custom Described Lidar]
+[sync_slam_toolbox_node-1] WARNING: Logging before InitGoogleLogging() is written to STDERR
+[sync_slam_toolbox_node-1] W1013 01:38:07.291951 811499 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 24.  Bounding to maximum number available.
+[sync_slam_toolbox_node-1] W1013 01:38:07.303735 811499 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 24.  Bounding to maximum number available.
+[sync_slam_toolbox_node-1] W1013 01:38:07.873530 811499 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 24.  Bounding to maximum number available.
+[sync_slam_toolbox_node-1] W1013 01:38:07.879925 811499 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 24.  Bounding to maximum number available.
+[sync_slam_toolbox_node-1] W1013 01:38:08.477645 811499 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 24.  Bounding to maximum number available.

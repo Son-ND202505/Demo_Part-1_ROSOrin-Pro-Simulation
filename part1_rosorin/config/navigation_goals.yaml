@@ -1,0 +1,7 @@
+# All coordinates are in the loaded map frame, distances in metres.
+# yaw_deg: 0 = map +x, 90 = map +y. Edit these values before each run.
+single_goal: {x: 0.8, y: 1.0, yaw_deg: -90.0}
+waypoints:
+  - {x: 0.5, y: 0.5, yaw_deg: -90.0}
+  - {x: 0.2, y: -0.4, yaw_deg: -90.0}
+  - {x: 1.0, y: 0.5, yaw_deg: 0.0}

@@ -1,0 +1,75 @@
+{
+  "status": "PASS",
+  "trials": [
+    {
+      "name": "multi_point",
+      "goals": [
+        [
+          4.58,
+          3.16,
+          0.0
+        ],
+        [
+          2.45,
+          -2.11,
+          0.0
+        ],
+        [
+          -3.97,
+          -2.27,
+          0.0
+        ]
+      ],
+      "waypoint_transitions": [
+        {
+          "current_waypoint": 0,
+          "pose": [
+            0.8886225734321213,
+            0.3686114282302106,
+            -0.15782201102263213
+          ]
+        },
+        {
+          "current_waypoint": 1,
+          "pose": [
+            4.5419767331908805,
+            3.039336898776615,
+            -0.0392217456427151
+          ]
+        },
+        {
+          "current_waypoint": 2,
+          "pose": [
+            2.2981031076649336,
+            -2.0399483712040842,
+            -0.1482506073728453
+          ]
+        }
+      ],
+      "action_result": "SUCCEEDED",
+      "final_pose": [
+        -3.8590239643092157,
+        -2.2122881014625464,
+        0.02187445715696934
+      ],
+      "final_position_error_m": 0.12508534578614564,
+      "wall_seconds": 99.89212805900024,
+      "simulation_seconds": 99.86999999999998,
+      "missed_waypoints": [],
+      "pass": true
+    }
+  ],
+  "initial_pose_source": null,
+  "goals_source": "part1_rosorin/config/my_goals.yaml",
+  "localization_mode": "auto",
+  "localization": {
+    "ready": true,
+    "xy_std_m": 0.10736479590489331,
+    "yaw_std_rad": 0.0659874818854626,
+    "scan_match_ratio": 1.0,
+    "matched_beams": 130,
+    "global_resets": 0,
+    "scan_seed": null,
+    "method": "auto"
+  }
+}

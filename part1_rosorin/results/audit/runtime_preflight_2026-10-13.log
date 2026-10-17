@@ -1,0 +1,12 @@
+FOUND robot_gazebo: /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo
+FOUND rosorin_description: /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/rosorin_description
+MISSING ros_ign_gazebo
+MISSING ros_gz_sim
+MISSING ros_gz_bridge
+MISSING ign_ros2_control
+MISSING controller_manager
+MISSING joint_state_publisher
+FOUND robot_state_publisher: /opt/ros/humble
+FOUND rviz2: /opt/ros/humble
+FOUND xacro: /opt/ros/humble
+Runtime prerequisites missing: 6

@@ -1,0 +1,116 @@
+{
+  "status": "PASS",
+  "tests": [
+    {
+      "name": "forward",
+      "cmd_linear_x": 0.15,
+      "cmd_angular_z": 0.0,
+      "sim_command_seconds": 1.5,
+      "initial_pose": [
+        1.529560371973453e-11,
+        -1.262481230998168e-09,
+        9.736228830123779e-17
+      ],
+      "final_pose": [
+        0.2249991844035219,
+        -2.6788751437831585e-09,
+        1.3407456912094741e-09
+      ],
+      "forward_displacement_m": 0.2249991843882263,
+      "yaw_change_rad": 1.3407455938471857e-09,
+      "pass": true
+    },
+    {
+      "name": "backward",
+      "cmd_linear_x": -0.15,
+      "cmd_angular_z": 0.0,
+      "sim_command_seconds": 1.5,
+      "initial_pose": [
+        0.2249991844035219,
+        -2.6788751437831585e-09,
+        1.3407456912094741e-09
+      ],
+      "final_pose": [
+        -4.226937052017113e-07,
+        7.0884753862459945e-09,
+        -5.099322289252246e-08
+      ],
+      "forward_displacement_m": -0.2249996070972271,
+      "yaw_change_rad": -5.233396858373193e-08,
+      "pass": true
+    },
+    {
+      "name": "turn_left",
+      "cmd_linear_x": 0.0,
+      "cmd_angular_z": 0.3,
+      "sim_command_seconds": 1.5,
+      "initial_pose": [
+        -4.226937052017113e-07,
+        7.0884753862459945e-09,
+        -5.099322289252246e-08
+      ],
+      "final_pose": [
+        -0.017546796137591778,
+        -0.002627152542006163,
+        0.4457320205699425
+      ],
+      "forward_displacement_m": -0.017546373309919216,
+      "yaw_change_rad": 0.44573207156316536,
+      "pass": true
+    },
+    {
+      "name": "turn_right",
+      "cmd_linear_x": 0.0,
+      "cmd_angular_z": -0.3,
+      "sim_command_seconds": 1.5,
+      "initial_pose": [
+        -0.017546796137591778,
+        -0.002627152542006163,
+        0.4457320205699425
+      ],
+      "final_pose": [
+        -0.0663468686664882,
+        -0.0034325458765829325,
+        0.21250445150577144
+      ],
+      "forward_displacement_m": -0.04437929699925265,
+      "yaw_change_rad": -0.23322756906417105,
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "lidar": {
+    "frame_id": "lidar_frame",
+    "last_stamp_sim_seconds": 36.9,
+    "samples": 270,
+    "finite_valid_samples": 260,
+    "min_valid_m": 1.1076254844665527,
+    "max_valid_m": 6.445595741271973,
+    "messages_received": 76,
+    "rate_per_sim_second": 10.0
+  },
+  "odom_frames": [
+    [
+      "odom",
+      "base_footprint"
+    ]
+  ],
+  "odom_messages_received": 254,
+  "tf": {
+    "odom->base_footprint": [
+      -0.0663468686664882,
+      -0.0034325458765829325,
+      0.0
+    ],
+    "odom->base_link": [
+      -0.06634686282862523,
+      -0.0034325691085056987,
+      0.027999999999989755
+    ],
+    "odom->lidar_frame": [
+      -0.05514461704582131,
+      -0.0009398122877510339,
+      0.16440999973269532
+    ]
+  }
+}

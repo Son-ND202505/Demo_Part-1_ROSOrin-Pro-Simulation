@@ -1,0 +1,16 @@
+[INFO] [1791830007.958845636] [basic_navigator]: Publishing Initial Pose
+[INFO] [1791830009.966983810] [basic_navigator]: Setting initial pose
+[INFO] [1791830009.967546161] [basic_navigator]: Publishing Initial Pose
+[INFO] [1791830009.968045414] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1791830009.968608516] [basic_navigator]: Setting initial pose
+[INFO] [1791830009.969030417] [basic_navigator]: Publishing Initial Pose
+[INFO] [1791830009.969414737] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1791830009.969781533] [basic_navigator]: Setting initial pose
+[INFO] [1791830009.970143014] [basic_navigator]: Publishing Initial Pose
+[INFO] [1791830009.970507734] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1791830013.979983557] [basic_navigator]: Nav2 is ready for use!
+[INFO] [1791830013.981067251] [basic_navigator]: Navigating to goal: 0.8 1.0...
+{"name": "single_goal", "goals": [[0.8, 1.0, -1.5707963267948966]], "waypoint_transitions": [], "action_result": "SUCCEEDED", "final_pose": [0.9300656041414435, 1.1894586607352853, -1.7839786155816455], "final_position_error_m": 0.22980784474923086, "wall_seconds": 4.7718172629975015, "simulation_seconds": 6.780000000000086, "pass": true}
+[INFO] [1791830018.753333945] [basic_navigator]: Following 3 goals....
+{"name": "multi_point", "goals": [[0.5, 0.5, -1.5707963267948966], [0.2, -0.4, -1.5707963267948966], [1.0, 0.5, 0.0]], "waypoint_transitions": [{"current_waypoint": 0, "pose": [0.9293279373626753, 1.1874231874007206, -1.776331244906657]}, {"current_waypoint": 1, "pose": [0.6994923205452478, 0.6591692173112864, -1.8177074583447297]}, {"current_waypoint": 2, "pose": [0.28748892178425284, -0.20535125944256885, -1.8136166230920547]}], "action_result": "SUCCEEDED", "final_pose": [0.8935032604314871, 0.31086294959053956, 0.23459179328349766], "final_position_error_m": 0.21705846994834005, "wall_seconds": 22.70577256300021, "simulation_seconds": 22.709999999999923, "missed_waypoints": [], "pass": true}
+{"status": "PASS", "trials": [{"name": "single_goal", "goals": [[0.8, 1.0, -1.5707963267948966]], "waypoint_transitions": [], "action_result": "SUCCEEDED", "final_pose": [0.9300656041414435, 1.1894586607352853, -1.7839786155816455], "final_position_error_m": 0.22980784474923086, "wall_seconds": 4.7718172629975015, "simulation_seconds": 6.780000000000086, "pass": true}, {"name": "multi_point", "goals": [[0.5, 0.5, -1.5707963267948966], [0.2, -0.4, -1.5707963267948966], [1.0, 0.5, 0.0]], "waypoint_transitions": [{"current_waypoint": 0, "pose": [0.9293279373626753, 1.1874231874007206, -1.776331244906657]}, {"current_waypoint": 1, "pose": [0.6994923205452478, 0.6591692173112864, -1.8177074583447297]}, {"current_waypoint": 2, "pose": [0.28748892178425284, -0.20535125944256885, -1.8136166230920547]}], "action_result": "SUCCEEDED", "final_pose": [0.8935032604314871, 0.31086294959053956, 0.23459179328349766], "final_position_error_m": 0.21705846994834005, "wall_seconds": 22.70577256300021, "simulation_seconds": 22.709999999999923, "missed_waypoints": [], "pass": true}], "initial_pose_source": "part1_rosorin/results/runtime/localization_initial_pose.json"}

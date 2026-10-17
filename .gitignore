@@ -1,0 +1,64 @@
+# ROS 2/colcon generated artifacts
+build/
+install/
+log/
+.colcon/
+
+# Per-run ROS state and captured simulation artifacts
+.ros/
+*.db3
+*.bag
+*.bag.active
+
+# Locally downloaded ROSOrin Pro materials and the extracted vendor source.
+# The accompanying manifest records their origin and integrity hashes.
+third_party/rosorin_pro/original/
+third_party/rosorin_pro/upstream/
+
+# Large recordings and intermediate captures; publish stable links in demos/ instead.
+demos/*.mp4
+demos/*.mkv
+demos/*.avi
+
+# Internal ROS process logs; retain curated console logs and measured results.
+part1_rosorin/results/audit/ros_logs/
+part1_rosorin/results/runtime/ros_logs/
+__pycache__/
+*.pyc
+part1_rosorin/results/runtime/.navigation.lock
+
+# NaVILA upstream checkouts, environments, weights and experiment data
+part2_navila/upstream/
+part2_navila/envs/
+part2_navila/model_weights/
+part2_navila/data/
+part2_navila/cache/
+
+# Publication scope: Part 1 simulation only
+part2_navila/
+third_party/navila/
+/*.pdf
+/*.webm
+/EyeCode*.md
+/EyeCode*.pdf
+/.vscode/
+.pytest_cache/
+part1_rosorin/ws/
+
+# Large raw console logs; the curated results and summaries are kept
+part1_rosorin/results/runtime/navigation_demo.log
+part1_rosorin/results/runtime/fresh_room_launch.log
+
+# Scratch navigation runs (failed, aborted or empty); keep only the listed ones
+part1_rosorin/results/runtime/navigation_trials_2026*.json
+!part1_rosorin/results/runtime/navigation_trials_20261017_173120_060901.json
+!part1_rosorin/results/runtime/navigation_trials_20261017_173332_574691.json
+!part1_rosorin/results/runtime/navigation_trials_20261017_190603_504530.json
+!part1_rosorin/results/runtime/navigation_trials_20261017_190628_387919.json
+!part1_rosorin/results/runtime/navigation_trials_20261017_190723_421300.json
+
+# Report is submitted together with Part 2
+/report/
+part1_rosorin/scripts/build_report.py
+part1_rosorin/scripts/build_report_vi.py
+demos/part1_captions.*

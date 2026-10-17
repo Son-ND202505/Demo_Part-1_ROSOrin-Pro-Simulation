@@ -1,0 +1,21 @@
+Open-loop calibration of the Gazebo MecanumDrive via /controller/cmd_vel (2026-10-17).
+Steady-state odometry twist (after 1 s) for a constant command; odometry is the model pose.
+
+BEFORE (vendor plugin values: wheel_separation 0.34, wheelbase 0.30, wheel_radius 0.05)
+cmd vx=0.10 wz=0.00 -> vx=0.080            (0.80x)
+cmd vx=0.20 wz=0.00 -> vx=0.160            (0.80x)
+cmd vx=0.00 wz=0.30 -> wz=0.334            (1.11x)
+cmd vx=0.00 wz=0.60 -> wz=0.942            (1.57x)
+cmd vx=0.00 wz=1.00 -> wz=1.609            (1.61x)
+cmd vx=0.00 wz=-0.60 -> wz=-1.011          (1.69x)
+During Nav2 runs the measured wz reached 1.4-2.06 rad/s while the controller capped it at 1.0 rad/s.
+
+AFTER (fitted to the URDF wheel joints: wheel_separation 0.18, wheelbase 0.16, wheel_radius 0.04)
+cmd vx=0.10 wz=0.00 -> vx=0.100            (1.00x)
+cmd vx=0.20 wz=0.00 -> vx=0.200            (1.00x)
+cmd vx=0.00 wz=0.30 -> wz=0.215            (0.72x)
+cmd vx=0.00 wz=0.60 -> wz=0.348            (0.58x)
+cmd vx=0.00 wz=1.00 -> wz=0.953            (0.95x)
+cmd vx=0.00 wz=-0.60 -> wz=-0.498          (0.83x)
+Low-speed rotation is now sluggish (cylinder wheels with mu=10 skid when turning in
+place); 1.0 rad/s, the speed Regulated Pure Pursuit uses to rotate, tracks well.

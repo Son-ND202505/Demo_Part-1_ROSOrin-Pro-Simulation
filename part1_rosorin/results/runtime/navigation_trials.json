@@ -1,0 +1,28 @@
+{
+  "status": "FAIL",
+  "trials": [
+    {
+      "name": "single_goal",
+      "goals": [
+        [
+          0.8,
+          1.0,
+          -1.5707963267948966
+        ]
+      ],
+      "waypoint_transitions": [],
+      "action_result": "FAILED",
+      "final_pose": [
+        -3.0985894479103395,
+        2.7853437234025735,
+        -0.20758563077982112
+      ],
+      "final_position_error_m": 4.287942617858921,
+      "wall_seconds": 48.19647368101869,
+      "simulation_seconds": 50.190000000000055,
+      "pass": false
+    }
+  ],
+  "initial_pose_source": "part1_rosorin/results/runtime/localization_initial_pose.json",
+  "error": "single_goal did not meet action/pose checks"
+}

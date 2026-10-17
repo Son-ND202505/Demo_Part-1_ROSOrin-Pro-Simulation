@@ -1,0 +1,30 @@
+{
+  "room_slam": {
+    "width": 203,
+    "height": 162,
+    "resolution_m": 0.05,
+    "origin": [
+      -5.01,
+      -4.02,
+      0
+    ],
+    "free_cells": 17187,
+    "occupied_cells": 915,
+    "unknown_cells": 14784,
+    "total_cells": 32886
+  },
+  "room_demo": {
+    "width": 202,
+    "height": 162,
+    "resolution_m": 0.05,
+    "origin": [
+      -5.02,
+      -4.05,
+      0
+    ],
+    "free_cells": 19425,
+    "occupied_cells": 1101,
+    "unknown_cells": 12198,
+    "total_cells": 32724
+  }
+}

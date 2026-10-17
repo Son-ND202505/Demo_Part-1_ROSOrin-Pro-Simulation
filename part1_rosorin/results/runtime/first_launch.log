@@ -1,0 +1,180 @@
+[INFO] [launch]: All log files can be found below /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/results/runtime/ros_logs/2026-10-13-01-19-01-212568-sonnd-dell-7670-716128
+[INFO] [launch]: Default logging verbosity is set to INFO
+ign_args is deprecated, migrate to gz_args!
+[INFO] [ign gazebo-1]: process started with pid [716184]
+[INFO] [ros2_control_node-2]: process started with pid [716187]
+[INFO] [joint_state_publisher-3]: process started with pid [716189]
+[INFO] [robot_state_publisher-4]: process started with pid [716191]
+[INFO] [create-5]: process started with pid [716193]
+[INFO] [parameter_bridge-6]: process started with pid [716195]
+[INFO] [static_transform_publisher-7]: process started with pid [716198]
+[create-5] [ros_ign_gazebo] is deprecated! Redirecting to use [ros_gz_sim] instead!
+[create-5] 
+[static_transform_publisher-7] [WARN] [1791829141.897552842] []: Old-style arguments are deprecated; see --help for new-style arguments
+[ros2_control_node-2] [WARN] [1791829141.917031063] [controller_manager]: [Deprecated] Passing the robot description parameter directly to the control_manager node is deprecated. Use '~/robot_description' topic from 'robot_state_publisher' instead.
+[ros2_control_node-2] terminate called after throwing an instance of 'std::runtime_error'
+[ros2_control_node-2]   what():  no ros2_control tag
+[ros2_control_node-2] Stack trace (most recent call last):
+[parameter_bridge-6] [INFO] [1791829141.917786286] [ros_gz_bridge]: Creating ROS->GZ Bridge: [/controller/cmd_vel (geometry_msgs/msg/Twist) -> /controller/cmd_vel (ignition.msgs.Twist)] (Lazy 0)
+[ros2_control_node-2] #15   Object "", at 0xffffffffffffffff, in 
+[ros2_control_node-2] #14   Object "/opt/ros/humble/lib/controller_manager/ros2_control_node", at 0x6029b06d3ec4, in 
+[parameter_bridge-6] [INFO] [1791829141.919303810] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/odom (ignition.msgs.Odometry) -> /odom (nav_msgs/msg/Odometry)] (Lazy 0)
+[create-5] [INFO] [1791829141.919291651] [ros_gz_sim]: Requesting list of world names.
+[static_transform_publisher-7] [INFO] [1791829141.919643170] [static_transform_publisher]: Spinning until stopped - publishing transform
+[static_transform_publisher-7] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-7] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-7] from 'map' to 'odom'
+[parameter_bridge-6] [INFO] [1791829141.920500824] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/odom/tf (ignition.msgs.Pose_V) -> /odom/tf (tf2_msgs/msg/TFMessage)] (Lazy 0)
+[parameter_bridge-6] [INFO] [1791829141.921138867] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/clock (ignition.msgs.Clock) -> /clock (rosgraph_msgs/msg/Clock)] (Lazy 0)
+[parameter_bridge-6] [INFO] [1791829141.921647442] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/joint_states (ignition.msgs.Model) -> /joint_states (sensor_msgs/msg/JointState)] (Lazy 0)
+[parameter_bridge-6] [INFO] [1791829141.922761412] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/scan (ignition.msgs.LaserScan) -> /scan (sensor_msgs/msg/LaserScan)] (Lazy 0)
+[parameter_bridge-6] [INFO] [1791829141.923073479] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/scan/points (ignition.msgs.PointCloudPacked) -> /scan/points (sensor_msgs/msg/PointCloud2)] (Lazy 0)
+[parameter_bridge-6] [INFO] [1791829141.923428312] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/imu (ignition.msgs.IMU) -> /imu (sensor_msgs/msg/Imu)] (Lazy 0)
+[parameter_bridge-6] [INFO] [1791829141.923738186] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/depth_cam/depth_cam (ignition.msgs.Image) -> /depth_cam/depth_cam (sensor_msgs/msg/Image)] (Lazy 0)
+[parameter_bridge-6] [INFO] [1791829141.924031775] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/depth_cam/rgb/camera_info (ignition.msgs.CameraInfo) -> /depth_cam/rgb/camera_info (sensor_msgs/msg/CameraInfo)] (Lazy 0)
+[robot_state_publisher-4] [INFO] [1791829141.924306328] [robot_state_publisher]: got segment base_footprint
+[robot_state_publisher-4] [INFO] [1791829141.924413450] [robot_state_publisher]: got segment base_link
+[robot_state_publisher-4] [INFO] [1791829141.924425833] [robot_state_publisher]: got segment camera_link0
+[robot_state_publisher-4] [INFO] [1791829141.924434032] [robot_state_publisher]: got segment front_left_link
+[robot_state_publisher-4] [INFO] [1791829141.924441487] [robot_state_publisher]: got segment front_right_link
+[robot_state_publisher-4] [INFO] [1791829141.924448740] [robot_state_publisher]: got segment imu_link
+[robot_state_publisher-4] [INFO] [1791829141.924455747] [robot_state_publisher]: got segment left_back_wheel_link
+[robot_state_publisher-4] [INFO] [1791829141.924463211] [robot_state_publisher]: got segment left_front_wheel_link
+[robot_state_publisher-4] [INFO] [1791829141.924470466] [robot_state_publisher]: got segment lidar_frame
+[robot_state_publisher-4] [INFO] [1791829141.924477131] [robot_state_publisher]: got segment lidar_sim_frame
+[robot_state_publisher-4] [INFO] [1791829141.924483948] [robot_state_publisher]: got segment mic_link
+[robot_state_publisher-4] [INFO] [1791829141.924490969] [robot_state_publisher]: got segment rear_left_link
+[robot_state_publisher-4] [INFO] [1791829141.924497810] [robot_state_publisher]: got segment rear_right_link
+[robot_state_publisher-4] [INFO] [1791829141.924504485] [robot_state_publisher]: got segment right_back_wheel_link
+[robot_state_publisher-4] [INFO] [1791829141.924511003] [robot_state_publisher]: got segment right_front_wheel_link
+[ros2_control_node-2] #13   Source "../csu/libc-start.c", line 392, in __libc_start_main_impl [0x731999029e3f]
+[ros2_control_node-2] #12   Source "../sysdeps/nptl/libc_start_call_main.h", line 58, in __libc_start_call_main [0x731999029d8f]
+[ros2_control_node-2] #11   Object "/opt/ros/humble/lib/controller_manager/ros2_control_node", at 0x6029b06d336f, in 
+[ros2_control_node-2] #10   Object "/opt/ros/humble/lib/libcontroller_manager.so", at 0x73199999945a, in controller_manager::ControllerManager::ControllerManager(std::shared_ptr<rclcpp::Executor>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rclcpp::NodeOptions const&)
+[ros2_control_node-2] #9    Object "/opt/ros/humble/lib/libcontroller_manager.so", at 0x73199999440f, in controller_manager::ControllerManager::init_resource_manager(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+[ros2_control_node-2] #8    Object "/opt/ros/humble/lib/libhardware_interface.so", at 0x731999314006, in hardware_interface::ResourceManager::load_urdf(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool, bool)
+[ros2_control_node-2] #7    Object "/opt/ros/humble/lib/libhardware_interface.so", at 0x7319992ede1a, in 
+[ros2_control_node-2] #6    Object "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30", at 0x7319994ae4d7, in __cxa_throw
+[ros2_control_node-2] #5    Object "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30", at 0x7319994ae276, in std::terminate()
+[ros2_control_node-2] #4    Object "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30", at 0x7319994ae20b, in 
+[ros2_control_node-2] #3    Object "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30", at 0x7319994a2b9d, in 
+[ros2_control_node-2] #2    Source "./stdlib/abort.c", line 79, in abort [0x7319990287f2]
+[ros2_control_node-2] #1    Source "../sysdeps/posix/raise.c", line 26, in raise [0x731999042475]
+[ros2_control_node-2] #0  | Source "./nptl/pthread_kill.c", line 89, in __pthread_kill_internal
+[ros2_control_node-2]     | Source "./nptl/pthread_kill.c", line 78, in __pthread_kill_implementation
+[ros2_control_node-2]       Source "./nptl/pthread_kill.c", line 44, in __pthread_kill [0x7319990969bc]
+[ros2_control_node-2] Aborted (Signal sent by tkill() 716187 1000)
+[ign gazebo-1] Warning: Ignoring XDG_SESSION_TYPE=wayland on Gnome. Use QT_QPA_PLATFORM=wayland to run on Wayland anyway.
+[joint_state_publisher-3] [INFO] [1791829142.146812068] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+[create-5] [INFO] [1791829142.426235896] [ros_gz_sim]: Waiting messages on topic [robot_description].
+[create-5] [INFO] [1791829142.437844475] [ros_gz_sim]: Requested creation of entity.
+[create-5] [INFO] [1791829142.437876770] [ros_gz_sim]: OK creation of entity.
+[INFO] [create-5]: process has finished cleanly [pid 716193]
+[INFO] [spawner-8]: process started with pid [716382]
+[spawner-8] [INFO] [1791829142.792939262] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[INFO] [create-9]: process started with pid [716451]
+[INFO] [create-10]: process started with pid [716453]
+[INFO] [create-11]: process started with pid [716455]
+[INFO] [create-12]: process started with pid [716457]
+[create-11] [INFO] [1791829142.900899046] [spawn_entity]: Requesting list of world names.
+[create-9] [INFO] [1791829142.908341691] [spawn_entity]: Requesting list of world names.
+[create-10] [INFO] [1791829142.911646697] [spawn_entity]: Requesting list of world names.
+[create-12] [INFO] [1791829142.912955185] [spawn_entity]: Requesting list of world names.
+[ign gazebo-1] Service [] is not valid.
+[create-11] [INFO] [1791829143.202187385] [spawn_entity]: Requested creation of entity.
+[create-11] [INFO] [1791829143.202242359] [spawn_entity]: OK creation of entity.
+[INFO] [create-11]: process has finished cleanly [pid 716455]
+[create-12] [INFO] [1791829143.402590683] [spawn_entity]: Requested creation of entity.
+[create-12] [INFO] [1791829143.402628358] [spawn_entity]: OK creation of entity.
+[create-9] [INFO] [1791829143.402604038] [spawn_entity]: Requested creation of entity.
+[create-9] [INFO] [1791829143.402629622] [spawn_entity]: OK creation of entity.
+[create-10] [INFO] [1791829143.402997021] [spawn_entity]: Requested creation of entity.
+[create-10] [INFO] [1791829143.403018910] [spawn_entity]: OK creation of entity.
+[INFO] [create-10]: process has finished cleanly [pid 716453]
+[INFO] [create-12]: process has finished cleanly [pid 716457]
+[INFO] [create-9]: process has finished cleanly [pid 716451]
+[ERROR] [ros2_control_node-2]: process has died [pid 716187, exit code -6, cmd '/opt/ros/humble/lib/controller_manager/ros2_control_node --ros-args --params-file /tmp/launch_params_radheomc --params-file /home/sonnd/ros2_ws/EyeCode-Robot-Navigation/part1_rosorin/ws/install/robot_gazebo/share/robot_gazebo/config/robot_config.yaml'].
+[INFO] [create-13]: process started with pid [716631]
+[INFO] [create-14]: process started with pid [716633]
+[INFO] [create-15]: process started with pid [716635]
+[ign gazebo-1] [INFO] [1791829144.114152881] [GazeboSimROS2ControlPlugin]: robot_param_node is robot_state_publisher
+[ign gazebo-1] [INFO] [1791829144.114192933] [GazeboSimROS2ControlPlugin]: robot_param_node is robot_description
+[create-15] [INFO] [1791829144.566244611] [spawn_entity]: Requesting list of world names.
+[create-13] [INFO] [1791829144.566889306] [spawn_entity]: Requesting list of world names.
+[create-14] [INFO] [1791829144.567748596] [spawn_entity]: Requesting list of world names.
+[ign gazebo-1] [INFO] [1791829144.569848452] [gz_ros2_control]: connected to service!! robot_state_publisher asking for robot_description
+[create-15] [INFO] [1791829144.867617589] [spawn_entity]: Requested creation of entity.
+[create-15] [INFO] [1791829144.867652792] [spawn_entity]: OK creation of entity.
+[INFO] [create-16]: process started with pid [716825]
+[INFO] [create-17]: process started with pid [716827]
+[INFO] [create-18]: process started with pid [716829]
+[INFO] [create-19]: process started with pid [716831]
+[create-14] [INFO] [1791829144.967673782] [spawn_entity]: Requested creation of entity.
+[create-14] [INFO] [1791829144.967717989] [spawn_entity]: OK creation of entity.
+[create-13] [INFO] [1791829144.968055752] [spawn_entity]: Requested creation of entity.
+[create-13] [INFO] [1791829144.968079564] [spawn_entity]: OK creation of entity.
+[INFO] [create-15]: process has finished cleanly [pid 716635]
+[INFO] [create-14]: process has finished cleanly [pid 716633]
+[INFO] [create-13]: process has finished cleanly [pid 716631]
+[ign gazebo-1] [INFO] [1791829145.315365616] [gz_ros2_control]: Received URDF from param server
+[ign gazebo-1] [ERROR] [1791829145.316422800] [gz_ros2_control]: Error parsing URDF in gz_ros2_control plugin, plugin not active : no ros2_control tag
+[create-16] [INFO] [1791829145.573267988] [dinning_table_0]: Requesting list of world names.
+[create-17] [INFO] [1791829145.573611029] [dinning_table_1]: Requesting list of world names.
+[create-19] [INFO] [1791829145.573619802] [dinning_table_3]: Requesting list of world names.
+[create-18] [INFO] [1791829145.575227711] [dinning_table_2]: Requesting list of world names.
+[ign gazebo-1] libEGL warning: egl: failed to create dri2 screen
+[ign gazebo-1] libEGL warning: egl: failed to create dri2 screen
+[ign gazebo-1] libEGL warning: egl: failed to create dri2 screen
+[ign gazebo-1] libEGL warning: egl: failed to create dri2 screen
+[INFO] [create-20]: process started with pid [717247]
+[INFO] [create-21]: process started with pid [717249]
+[INFO] [create-22]: process started with pid [717251]
+[INFO] [create-23]: process started with pid [717253]
+[create-16] [INFO] [1791829145.974532094] [dinning_table_0]: Requested creation of entity.
+[create-16] [INFO] [1791829145.974574641] [dinning_table_0]: OK creation of entity.
+[INFO] [create-16]: process has finished cleanly [pid 716825]
+[create-17] [INFO] [1791829146.175036079] [dinning_table_1]: Requested creation of entity.
+[create-17] [INFO] [1791829146.175079470] [dinning_table_1]: OK creation of entity.
+[create-18] [INFO] [1791829146.175064024] [dinning_table_2]: Requested creation of entity.
+[create-18] [INFO] [1791829146.175101805] [dinning_table_2]: OK creation of entity.
+[create-19] [INFO] [1791829146.175279244] [dinning_table_3]: Requested creation of entity.
+[create-19] [INFO] [1791829146.175308897] [dinning_table_3]: OK creation of entity.
+[create-22] [INFO] [1791829146.239223553] [spawn_entity]: Requesting list of world names.
+[create-23] [INFO] [1791829146.239687921] [spawn_entity]: Requesting list of world names.
+[create-20] [INFO] [1791829146.242557433] [spawn_entity]: Requesting list of world names.
+[create-21] [INFO] [1791829146.242620946] [spawn_entity]: Requesting list of world names.
+[INFO] [create-18]: process has finished cleanly [pid 716829]
+[INFO] [create-19]: process has finished cleanly [pid 716831]
+[INFO] [create-17]: process has finished cleanly [pid 716827]
+[create-22] [INFO] [1791829146.540397209] [spawn_entity]: Requested creation of entity.
+[create-22] [INFO] [1791829146.540438744] [spawn_entity]: OK creation of entity.
+[INFO] [create-22]: process has finished cleanly [pid 717251]
+[create-20] [INFO] [1791829146.740797676] [spawn_entity]: Requested creation of entity.
+[create-20] [INFO] [1791829146.740843432] [spawn_entity]: OK creation of entity.
+[create-23] [INFO] [1791829146.740832145] [spawn_entity]: Requested creation of entity.
+[create-23] [INFO] [1791829146.740863098] [spawn_entity]: OK creation of entity.
+[create-21] [INFO] [1791829146.741310611] [spawn_entity]: Requested creation of entity.
+[create-21] [INFO] [1791829146.741334946] [spawn_entity]: OK creation of entity.
+[INFO] [create-21]: process has finished cleanly [pid 717249]
+[INFO] [create-23]: process has finished cleanly [pid 717253]
+[INFO] [create-20]: process has finished cleanly [pid 717247]
+[INFO] [create-24]: process started with pid [717377]
+[INFO] [create-25]: process started with pid [717379]
+[create-24] [INFO] [1791829147.245413007] [spawn_entity]: Requesting list of world names.
+[create-25] [INFO] [1791829147.246506950] [spawn_entity]: Requesting list of world names.
+[create-24] [INFO] [1791829147.546680383] [spawn_entity]: Requested creation of entity.
+[create-24] [INFO] [1791829147.546786799] [spawn_entity]: OK creation of entity.
+[create-25] [INFO] [1791829147.547316643] [spawn_entity]: Requested creation of entity.
+[create-25] [INFO] [1791829147.547380313] [spawn_entity]: OK creation of entity.
+[INFO] [create-24]: process has finished cleanly [pid 717377]
+[INFO] [create-25]: process has finished cleanly [pid 717379]
+[spawner-8] [WARN] [1791829152.806666952] [spawner_joint_state_broadcaster]: Could not contact service /controller_manager/list_controllers
+[spawner-8] [INFO] [1791829152.807061835] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-8] [WARN] [1791829162.820238887] [spawner_joint_state_broadcaster]: Could not contact service /controller_manager/list_controllers
+[spawner-8] [INFO] [1791829162.820450282] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-8] [WARN] [1791829172.832659760] [spawner_joint_state_broadcaster]: Could not contact service /controller_manager/list_controllers
+[spawner-8] [INFO] [1791829172.832864610] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-8] [WARN] [1791829182.846165325] [spawner_joint_state_broadcaster]: Could not contact service /controller_manager/list_controllers
+[spawner-8] [INFO] [1791829182.846574378] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-8] [WARN] [1791829192.860240815] [spawner_joint_state_broadcaster]: Could not contact service /controller_manager/list_controllers
+[spawner-8] [INFO] [1791829192.860672960] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...

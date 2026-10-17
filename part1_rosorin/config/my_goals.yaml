@@ -1,0 +1,5 @@
+single_goal: {x: 2.45, y: -2.11, yaw_deg: 0.0}
+waypoints:
+  - {x: 4.58,  y: 3.16,  yaw_deg: 0.0}
+  - {x: 2.45,  y: -2.11, yaw_deg: 0.0}
+  - {x: -3.97, y: -2.27, yaw_deg: 0.0}
